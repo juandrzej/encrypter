@@ -4,9 +4,6 @@ import sys
 file_path = sys.argv[1]
 file_pw = sys.argv[2]
 
-print(file_path)
-print(file_pw)
-
 reader = PdfReader(file_path)
 writer = PdfWriter()
 
